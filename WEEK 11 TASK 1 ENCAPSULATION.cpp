@@ -12,6 +12,51 @@ private :
     float basic_salary;
 
 
+    public:
+        void setEmployeeName(string e)
+        {
+        employee_name = e;
+
+
+        }
+
+
+        void setEmployeeId(int i)
+        {
+            employee_id=i;
+        }
+
+
+
+
+        void  setBasicSalary (float b)
+        {
+        basic_salary = b;
+
+        }
+
+
+
+    string getEmployeeName()
+    {
+    return employee_name;
+
+
+    }
+
+
+    int getEmployeeId()
+    {
+     return employee_id;
+    }
+
+ float getBasicSalary()
+ {
+     return basic_salary;
+ }
+
+
+
 public:
     void EmployeeDetails()
     {
