@@ -1,3 +1,9 @@
+//CT101/G/29069/25
+//ERIK MUKIRI GITAU
+
+
+
+
 #include<iostream>
 using namespace std;
 int main (){
