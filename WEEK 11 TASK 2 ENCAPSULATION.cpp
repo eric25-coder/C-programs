@@ -17,6 +17,38 @@ string student_name;
 int admission_number;
 float fee_balance;
 
+void setStudentName(string s)
+{
+    student_name = s;
+}
+
+void setAdmissionNumber(int n)
+{
+    admission_number = n;
+}
+
+void setFeeBalance(float f)
+{
+    fee_balance = f;
+}
+
+
+string getStudentName()
+{
+    return student_name;
+}
+
+int getAdmissionNumber()
+{
+ return admission_number ;
+}
+
+float getFeeBalance()
+{
+
+ return fee_balance;
+}
+
 
 
     public:
